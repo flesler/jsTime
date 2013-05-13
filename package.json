@@ -1,0 +1,27 @@
+{
+  "name": "jsTime",
+  "author": "Ariel Flesler <aflesler@gmail.com>",
+  "version": "1.0.0",
+  "description": "Convert numbers to milliseconds easily",
+  "keywords": [
+    "number",
+    "date",
+    "time",
+    "milliseconds",
+    "seconds",
+    "minutes",
+    "hours",
+    "days",
+    "years"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/flesler/jsTime",
+  "main": "./jsTime.js",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "mocha": "1.9.x",
+    "should": "1.2.x"
+  }
+}
