@@ -1,5 +1,5 @@
 {
-  "name": "jsTime",
+  "name": "jstime",
   "author": "Ariel Flesler <aflesler@gmail.com>",
   "version": "1.0.0",
   "description": "Convert numbers to milliseconds easily",
