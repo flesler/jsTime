@@ -11,7 +11,7 @@ setTimeout(function(){
 }, 10..seconds());
 
 setInterval(function(){
-	alert('Every 1.5 hours');
+	alert('Every 1.5 minutes');
 }, 1.5.minutes());
 
 // Timestamp of 3 days from now
@@ -19,7 +19,7 @@ var expire = new Date() + 3..days();
 </pre>
 
 The double dot (..) is needed for integer numbers, else the interpreter thinks it's a mistyped float number.
-Another possible syntax that is just a it longer but less magical would be:
+Another possible syntax that is just a bit longer but less confusing is:
 
 <pre>
 var expire = new Date() + (3).days();
